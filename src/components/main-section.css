@@ -1,0 +1,57 @@
+section .main-container {
+  background: url("../assets/bg.jpg") no-repeat;
+  background-size: cover;
+  background-position: left center;
+  height: 450px;
+  width: 100%;
+  position: relative;
+  color: #3a3a3a;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+section .main-container {
+  h1 {
+    font-size: 3rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+}
+section .description {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 1.5rem;
+  gap: 2;
+}
+section .description {
+  .box {
+    padding: 1rem;
+    box-sizing: border-box;
+  }
+  h3 {
+    text-transform: uppercase;
+    font-size: 22px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  p {
+    font-size: 14px;
+  }
+  button {
+    margin-top: 1rem;
+    font-size: 0.7rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    color: #fff;
+    background: #3a3a3a;
+    padding: 10px 20px;
+  }
+  button:hover {
+    background-color: #606060;
+  }
+  button:active {
+    transform: scale(0.9);
+  }
+}

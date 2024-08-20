@@ -1,0 +1,13 @@
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #f6f6f6;
+  margin-top: 9rem;
+  padding-top: 1rem;
+  padding-block-end: 1rem;
+  border-top: 1px solid #ddd;
+  ul {
+    display: flex;
+  }
+}
